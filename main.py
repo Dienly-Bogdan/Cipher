@@ -1,4 +1,4 @@
-# Задача Расшифровать и Зашрифовать/ Строки и Возраст. 
+# Задача Расшифровать и Зашрифовать/ Строки и Число. 
 # Функция Расшифровки Числа
 def decipher_number(memory, step):
     return memory - step
@@ -22,3 +22,6 @@ def decipher_line(memory,step):
         new_character = chr(new_unicode)
         plain_text = plain_text + new_character
     return plain_text
+
+def cipher_number(memory, step):
+    return memory + step
